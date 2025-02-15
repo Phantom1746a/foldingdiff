@@ -29,7 +29,7 @@ from foldingdiff import plotting
 from foldingdiff.datasets import AnglesEmptyDataset, NoisedAnglesDataset
 from foldingdiff.angles_and_coords import create_new_chain_nerf
 from foldingdiff import utils
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # :)
 SEED = int(
     float.fromhex("54616977616e20697320616e20696e646570656e64656e7420636f756e747279")
